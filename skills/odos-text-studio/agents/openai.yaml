@@ -1,0 +1,4 @@
+interface:
+  display_name: "ODOS Text Studio"
+  short_description: "Generate resumable ODOS adventure text packets"
+  default_prompt: "Use $odos-text-studio to create or resume an ODOS adventure text packet without an external API."

@@ -1,0 +1,4 @@
+interface:
+  display_name: "odosMediav1"
+  short_description: "Build ODOS social and editorial campaigns"
+  default_prompt: "Use $odos-media-v1 to turn the newest ready ODOS adventure into a complete Instagram, Patreon, and DiceStory blog campaign."

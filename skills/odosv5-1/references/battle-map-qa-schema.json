@@ -1,0 +1,20 @@
+{
+  "schema_version": 1,
+  "status": "pass",
+  "checks": {
+    "strict_top_down": "pass",
+    "grid_alignment": "pass",
+    "tactical_zones": "pass",
+    "entrances_exits": "pass",
+    "cover_and_hazards": "pass",
+    "route_connectivity": "pass",
+    "encounter_space": "pass",
+    "no_text_or_labels": "pass",
+    "no_creatures": "pass",
+    "original_style_match": "pass",
+    "approved_map_match": "pass",
+    "density_balance": "pass",
+    "vtt_readability": "pass"
+  },
+  "notes": "Replace with concrete observations about zones, routes, cover, entrances, grid, density, and reference match."
+}

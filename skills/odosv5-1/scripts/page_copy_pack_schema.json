@@ -1,0 +1,59 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "ODOSv5.1 Page Copy Pack",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "schema_version",
+    "status",
+    "adventure",
+    "core_pages",
+    "appendix",
+    "assets"
+  ],
+  "properties": {
+    "schema_version": {
+      "const": 1
+    },
+    "status": {
+      "enum": ["not_built", "draft", "validated", "stale"]
+    },
+    "copy_revision": {
+      "type": "integer",
+      "minimum": 0,
+      "default": 0
+    },
+    "adventure": {
+      "type": "object",
+      "additionalProperties": true,
+      "required": ["title"],
+      "properties": {
+        "title": {"type": "string", "minLength": 1},
+        "level_range": {"type": "string"},
+        "party_size": {"type": "string"},
+        "runtime": {"type": "string"},
+        "tone": {"type": "string"},
+        "core_fantasy": {"type": "string"}
+      }
+    },
+    "core_pages": {
+      "type": "object",
+      "minProperties": 1,
+      "additionalProperties": {
+        "type": "object"
+      }
+    },
+    "appendix": {
+      "type": "object",
+      "additionalProperties": {
+        "type": "object"
+      }
+    },
+    "assets": {
+      "type": "object",
+      "additionalProperties": {
+        "type": "object"
+      }
+    }
+  }
+}

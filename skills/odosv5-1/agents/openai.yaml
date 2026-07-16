@@ -1,0 +1,5 @@
+interface:
+  display_name: "ODOSv5.1"
+  short_description: "Build faithful ODOS v5.1 packets with one visual checkpoint."
+  default_prompt: "Use $odosv5-1 to build a complete ODOS packet from my export, preserve the original ODOSv5 page and art references, show the four-proof visual checkpoint for approval, then finish and package the run."
+  brand_color: "#5B2A86"

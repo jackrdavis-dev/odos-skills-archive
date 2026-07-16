@@ -1,0 +1,109 @@
+{
+  "schema_version": 1,
+  "timezone": "America/Los_Angeles",
+  "schedule": {
+    "weekday": "Sunday",
+    "local_time": "21:00",
+    "status": "active_baseline",
+    "normal_publish_trigger": "scheduled_run_only",
+    "allow_ready_marker_to_publish_immediately": false,
+    "off_schedule_publish_requires_current_explicit_authorization": true,
+    "maximum_completed_releases_per_iso_week": 1,
+    "selection": "oldest_unpublished_ready"
+  },
+  "timing_optimization": {
+    "plan_reference": "references/release-timing-plan.md",
+    "current_phase": "baseline",
+    "baseline_slot": "Sunday 21:00 America/Los_Angeles",
+    "minimum_successful_baseline_releases": 6,
+    "schedule_change_requires_explicit_user_approval": true,
+    "candidate_order": [
+      "Sunday 17:00 America/Los_Angeles",
+      "Tuesday 15:00 America/Los_Angeles",
+      "Thursday 16:00 America/Los_Angeles"
+    ]
+  },
+  "source": {
+    "desktop_parent_folder": "New Adventures",
+    "ready_marker": "Ready.txt",
+    "ready_marker_semantics": "eligible_for_next_scheduled_release",
+    "required_editions": ["Basic", "Deluxe", "Premium"],
+    "require_exactly_four_files": true,
+    "required_skill_version_prefix": "5.1"
+  },
+  "state": {
+    "default_directory": "%LOCALAPPDATA%/ODOSRelease",
+    "ledger_filename": "release-ledger.json",
+    "staging_folder": "staging"
+  },
+  "patreon": {
+    "creator_url": "https://www.patreon.com/c/onedollaroneshot",
+    "notification_policy": {
+      "owner_approved_on": "2026-07-16",
+      "fulfillment_posts_notify": false,
+      "public_announcement_notifies": true,
+      "maximum_notified_posts_per_release": 1,
+      "announcement_requires_links_to_all_fulfillment_posts": true
+    },
+    "collection": "One Dollar One Shots",
+    "desired_tiers": [
+      {"edition": "Basic", "name": "Basic", "monthly_price_usd": 1, "patreon_tier_id": "28787749"},
+      {"edition": "Deluxe", "name": "Deluxe", "monthly_price_usd": 3, "patreon_tier_id": "28788059"},
+      {"edition": "Premium", "name": "Premium", "monthly_price_usd": 5, "patreon_tier_id": "29107472"}
+    ],
+    "tier_structure_verified_on": "2026-07-15",
+    "branding": {
+      "theme_color": "#5A2B91",
+      "tier_banner_paths_relative_to_workspace": {
+        "Basic": "assets/patreon/odos-tier-basic.png",
+        "Deluxe": "assets/patreon/odos-tier-deluxe.png",
+        "Premium": "assets/patreon/odos-tier-premium.png"
+      },
+      "external_shop_navigation": {
+        "label": "DiceStory Shop",
+        "url": "https://shop.thedicestory.com/"
+      },
+      "verified_on": "2026-07-15",
+      "patreon_shop_styling_limit": "Patreon has no separate Shop CSS or template editor. The Shop inherits creator-page branding; use the page cover, profile image, theme color, and ODOS product and collection artwork."
+    }
+  },
+  "shop": {
+    "login_url": "https://shop.thedicestory.com/login",
+    "admin_url": "https://shop.thedicestory.com/admin",
+    "new_product_url": "https://shop.thedicestory.com/admin/products/new",
+    "product_model": "one_product_three_editions",
+    "prices_usd": {"Basic": 1, "Deluxe": 3, "Premium": 5},
+    "edition_model": "odos_three_tier",
+    "external_release_key_source": "release-context.json:release_id",
+    "edition_contract_path_relative_to_workspace": "work/shop-app-source/deployment/ODOS_EDITION_RELEASE_CONTRACT.md",
+    "edition_support_verified_on": "2026-07-15",
+    "required_capabilities": [
+      "three visible edition choices on one listing",
+      "independent price per edition",
+      "independent ZIP delivery per edition",
+      "post-creation Edit Product workflow",
+      "cover image upload and card/detail image controls",
+      "draft or recoverable creation",
+      "admin and storefront verification"
+    ]
+  },
+  "homepage": {
+    "enabled": false,
+    "reminder": "Homepage quick-product-card integration is intentionally deferred. Remind the user during the next ODOS Release session."
+  },
+  "failure_reporting": {
+    "primary": "current Codex task",
+    "email_enabled": false,
+    "email_status": "deferred_until_core_pipeline_verified",
+    "email_recipient_for_future_method": "alerts@example.invalid",
+    "reminder_after": "first fully verified end-to-end release",
+    "reminder": "Ask the user to design and enable a different email alert method after the core release system works. Do not install or use a Gmail integration in the meantime."
+  },
+  "setup_gates": [
+    {
+      "id": "shop-edition-variants",
+      "status": "verified",
+      "reason": "Deployed and production-verified on 2026-07-15. One inactive product can contain Basic, Deluxe, and Premium editions with independent prices and ZIP assignments; activation validation, immutable paid-price snapshots, edition-isolated downloads, legacy compatibility, and external release-key idempotency all passed live transactional QA."
+    }
+  ]
+}

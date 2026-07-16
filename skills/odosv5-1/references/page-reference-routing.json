@@ -1,0 +1,31 @@
+{
+  "schema_version": 1,
+  "rules": [
+    {
+      "match": "core-pages/page-00-cover.png",
+      "sample": "assets/page-samples/Rumble TM Cover.png",
+      "controls": ["cover hierarchy", "logo scale", "title placement", "hero-art balance", "feature callouts"]
+    },
+    {
+      "match": "core-pages/page-04-scene-flow-overview.png",
+      "sample": "assets/page-samples/ig_08e5f85f801b3b79016a4b8342672481968fd37f4b8bd2fee6.png",
+      "controls": ["route visualization", "scene ladder", "side panels", "information hierarchy"]
+    },
+    {
+      "match": "core-pages/*",
+      "sample": "assets/page-samples/ig_0037031b75f5be41016a4b799ff8388194b04ded71a7e313f8.png",
+      "controls": ["scene-page hierarchy", "art-to-text ratio", "panel density", "title and footer placement"]
+    },
+    {
+      "match": "appendix/*",
+      "sample": "assets/page-samples/ig_0037031b75f5be41016a4b799ff8388194b04ded71a7e313f8.png",
+      "controls": ["packet chrome", "title placement", "panel hierarchy", "footer treatment"]
+    }
+  ],
+  "exemptions": [
+    {
+      "match": "handouts/*",
+      "reason": "Player handouts are self-contained in-world artifacts and do not use packet-page chrome."
+    }
+  ]
+}

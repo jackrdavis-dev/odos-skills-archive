@@ -1,0 +1,43 @@
+{
+  "schema_version": 1,
+  "timezone": "America/Los_Angeles",
+  "source": {
+    "new_adventures_folder": "New Adventures",
+    "ready_marker": "Ready.txt",
+    "text_packet_relative": "New Text Packet/Saved",
+    "require_exact_release_files": true,
+    "minimum_odos_version": "5.1"
+  },
+  "campaign": {
+    "instagram": {
+      "total_posts": 12,
+      "video_posts": 3,
+      "image_or_carousel_posts": 9,
+      "days": ["monday", "wednesday", "friday"],
+      "local_time": "10:00"
+    },
+    "patreon": {
+      "total_posts": 3,
+      "cadence": "weekly",
+      "day": "tuesday",
+      "local_time": "08:00"
+    },
+    "blog": {
+      "total_posts": 1,
+      "cadence": "weekly",
+      "day": "thursday",
+      "local_time": "09:00"
+    }
+  },
+  "brand": {
+    "name": "DiceStory Studio",
+    "voice": ["energetic", "practical", "GM-facing", "spoiler-aware"],
+    "colors": {
+      "ink": "#21102f",
+      "purple": "#5a2b91",
+      "purple_dark": "#2d0f45",
+      "gold": "#d89a1f",
+      "cream": "#fffdf7"
+    }
+  }
+}

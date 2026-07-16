@@ -1,0 +1,5 @@
+interface:
+  display_name: "ODOS Release"
+  short_description: "Publish approved ODOS packets safely"
+  default_prompt: "Use $odos-release to validate and publish the oldest approved ODOS adventure across Patreon and the DiceStory Shop."
+

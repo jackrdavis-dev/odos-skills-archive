@@ -1,0 +1,351 @@
+﻿{
+    "schema_version":  1,
+    "snapshot_date":  "2026-07-16",
+    "source":  "Local Codex skill installations, sanitized public snapshot",
+    "normalizations":  [
+                           "Machine-specific Text Studio home path changed to a portable user-home path.",
+                           "Inactive fallback email changed to alerts@example.invalid.",
+                           "Generated Python bytecode caches excluded."
+                       ],
+    "skills":  [
+                   {
+                       "name":  "odos-media-v1",
+                       "file_count":  8,
+                       "files":  [
+                                     {
+                                         "path":  "skills/odos-media-v1/agents/openai.yaml",
+                                         "bytes":  254,
+                                         "sha256":  "5f77eb006d1039546ee5be14c8ff2adfd681eab8d1a377b714741b674b81be32"
+                                     },
+                                     {
+                                         "path":  "skills/odos-media-v1/references/campaign-schema.md",
+                                         "bytes":  3472,
+                                         "sha256":  "7672ae2939d8e1c467977b2a6bdb423db4e32c137003c3ff133f3c4bcbcc830f"
+                                     },
+                                     {
+                                         "path":  "skills/odos-media-v1/references/channel-config.json",
+                                         "bytes":  1026,
+                                         "sha256":  "b3bea173464c76462cda7d73b13a7a1c56d2fe05df40674ab0d9c81c5b9b40c6"
+                                     },
+                                     {
+                                         "path":  "skills/odos-media-v1/references/content-contract.md",
+                                         "bytes":  5391,
+                                         "sha256":  "caa85fabc5d5c5eb045fd9840ba31146fa3ae28a303ffacce3b547d3d44179b2"
+                                     },
+                                     {
+                                         "path":  "skills/odos-media-v1/references/publishing.md",
+                                         "bytes":  3024,
+                                         "sha256":  "4da7dd06c9eaed4137edf7c351a17d92a8afe9dbd625615ca487bf2795b05b6b"
+                                     },
+                                     {
+                                         "path":  "skills/odos-media-v1/scripts/build_contact_sheet.py",
+                                         "bytes":  5315,
+                                         "sha256":  "d328deb52d83d9e75c2181a9785907f370fc3b93c3473852607696af709f2f81"
+                                     },
+                                     {
+                                         "path":  "skills/odos-media-v1/scripts/odos_media_manager.py",
+                                         "bytes":  57700,
+                                         "sha256":  "e41fad800e737b17bb02faecc8d4364e60e561752327b3a35d3ae66d4f15a2c3"
+                                     },
+                                     {
+                                         "path":  "skills/odos-media-v1/SKILL.md",
+                                         "bytes":  8592,
+                                         "sha256":  "7dee8b78b9f690f810cb90fc8c17ccbe703a7bf3e953b0b63d2b8c380b010ef0"
+                                     }
+                                 ]
+                   },
+                   {
+                       "name":  "odos-release",
+                       "file_count":  8,
+                       "files":  [
+                                     {
+                                         "path":  "skills/odos-release/agents/openai.yaml",
+                                         "bytes":  239,
+                                         "sha256":  "a8dd59419ca3e635786a09319d3c8909d0119c7a1bbdf4559cb2a7c0c85dc24a"
+                                     },
+                                     {
+                                         "path":  "skills/odos-release/references/content-contract.md",
+                                         "bytes":  2457,
+                                         "sha256":  "cfa0140f27ef183dd37a9327abb23185db85daef00858ef807921b2b03a7830f"
+                                     },
+                                     {
+                                         "path":  "skills/odos-release/references/publishing-contract.md",
+                                         "bytes":  4158,
+                                         "sha256":  "d2d4ff7ed4f622052e9f21c9fe80e26a6a894da7e704dfa379d7960e14b13552"
+                                     },
+                                     {
+                                         "path":  "skills/odos-release/references/release-config.json",
+                                         "bytes":  4867,
+                                         "sha256":  "9ced4a6cfbc30036d3e2a32c6c3661216bbe1488d8c34880f75a07ea08fe3f3d"
+                                     },
+                                     {
+                                         "path":  "skills/odos-release/references/release-timing-plan.md",
+                                         "bytes":  5888,
+                                         "sha256":  "544b510ad672c5d31d3a8edfa5fa6da72135a1195a4059e002498753cce45554"
+                                     },
+                                     {
+                                         "path":  "skills/odos-release/scripts/preflight_release.py",
+                                         "bytes":  17423,
+                                         "sha256":  "ad73ae51874d155f99caa3596a1bca417c439360a90113296a43c851e3e1a649"
+                                     },
+                                     {
+                                         "path":  "skills/odos-release/scripts/release_state.py",
+                                         "bytes":  6574,
+                                         "sha256":  "f72e7bf82a904e8e1fe5015067d20fa25b0350667c56fa4a1a5fc70db9be5d30"
+                                     },
+                                     {
+                                         "path":  "skills/odos-release/SKILL.md",
+                                         "bytes":  7027,
+                                         "sha256":  "f1d4cb7c89d6bd39b7346ac56a4c0496905ef6ee36507305f031f5e26036a535"
+                                     }
+                                 ]
+                   },
+                   {
+                       "name":  "odos-text-studio",
+                       "file_count":  4,
+                       "files":  [
+                                     {
+                                         "path":  "skills/odos-text-studio/agents/openai.yaml",
+                                         "bytes":  237,
+                                         "sha256":  "3065a9d10c947247337f6f4d0e6a9828074f73aa8a3aa9952ffdf0ed3a9436d6"
+                                     },
+                                     {
+                                         "path":  "skills/odos-text-studio/references/stage-contracts.md",
+                                         "bytes":  10478,
+                                         "sha256":  "8676cb5a9b0e5722b7b8e1cba5a7a9c7864b29681eb410b1b0cecc398a5fe920"
+                                     },
+                                     {
+                                         "path":  "skills/odos-text-studio/scripts/manage_packet.py",
+                                         "bytes":  28708,
+                                         "sha256":  "755b1e24e837aaaf2a2ed19b282321797db5cbfae0327e94fa79ca813e974e2f"
+                                     },
+                                     {
+                                         "path":  "skills/odos-text-studio/SKILL.md",
+                                         "bytes":  7987,
+                                         "sha256":  "d236bd04416fdd383e483171c1845351fe3761d7b7629869e45e3d865dfb61e6"
+                                     }
+                                 ]
+                   },
+                   {
+                       "name":  "odosv5-1",
+                       "file_count":  43,
+                       "files":  [
+                                     {
+                                         "path":  "skills/odosv5-1/agents/openai.yaml",
+                                         "bytes":  373,
+                                         "sha256":  "1528153b398750137e872daa98ffbd72d15dc433d9432e03ca40669a92b801b1"
+                                     },
+                                     {
+                                         "path":  "skills/odosv5-1/assets/art-style-samples/generated-hero-pantheria-cartoon-v6.png",
+                                         "bytes":  1933290,
+                                         "sha256":  "cda43ddfb43bd44fb67985a0720190be222c292eaf0526d6df47599caf157a38"
+                                     },
+                                     {
+                                         "path":  "skills/odosv5-1/assets/art-style-samples/README.md",
+                                         "bytes":  739,
+                                         "sha256":  "83cb23ca43cf7d42ffc091807157f231461f8704b0294898318e38ecc968e86e"
+                                     },
+                                     {
+                                         "path":  "skills/odosv5-1/assets/art-style-samples/Saedaxi Midnight Escape.png",
+                                         "bytes":  2557257,
+                                         "sha256":  "5c592879aa145c49886540f678f32f9cdf6f8449de631b1a80b395bfb257e191"
+                                     },
+                                     {
+                                         "path":  "skills/odosv5-1/assets/art-style-samples/Tavern People.png",
+                                         "bytes":  2937299,
+                                         "sha256":  "67b800d3a24921b655bf6236d3f70221be625b1a44aec8042836de9380b42975"
+                                     },
+                                     {
+                                         "path":  "skills/odosv5-1/assets/logos/Logo 4.png",
+                                         "bytes":  2025988,
+                                         "sha256":  "e882a89edf5a542d06d1ee372e22e90a071cb3713bcf7e097e6f04ee66ac7bb0"
+                                     },
+                                     {
+                                         "path":  "skills/odosv5-1/assets/logos/README.md",
+                                         "bytes":  170,
+                                         "sha256":  "b4e6fd9803ed07f7e6e1854f4584cb3ffeeaf2aa889c7fdbff17c7089528071c"
+                                     },
+                                     {
+                                         "path":  "skills/odosv5-1/assets/page-samples/ig_0037031b75f5be41016a4b799ff8388194b04ded71a7e313f8.png",
+                                         "bytes":  3215780,
+                                         "sha256":  "3d7a0cbac275c75ffd99c9ea8e8cc255aee9a990c36922e10c90a1eab7f30ffd"
+                                     },
+                                     {
+                                         "path":  "skills/odosv5-1/assets/page-samples/ig_08e5f85f801b3b79016a4b8342672481968fd37f4b8bd2fee6.png",
+                                         "bytes":  3126685,
+                                         "sha256":  "e9ce99a38f886e00754cf1d7b0f2818ba32f42c3c443ebd8968324517cb2cb74"
+                                     },
+                                     {
+                                         "path":  "skills/odosv5-1/assets/page-samples/README.md",
+                                         "bytes":  348,
+                                         "sha256":  "077bbbcfe7bc98619d8d0fda0d297edf806d805063b059b0576947380db29665"
+                                     },
+                                     {
+                                         "path":  "skills/odosv5-1/assets/page-samples/Rumble TM Cover.png",
+                                         "bytes":  3182099,
+                                         "sha256":  "b06ad53941fcc81ea8d17c59933e6d1185b961327907fcad84f9ff3cc88a8a57"
+                                     },
+                                     {
+                                         "path":  "skills/odosv5-1/assets/style-battle-map/CONTRACT.md",
+                                         "bytes":  354,
+                                         "sha256":  "2b88df79c16748114bd216662b647f664237b5a290385ede6dc863f30155b6ff"
+                                     },
+                                     {
+                                         "path":  "skills/odosv5-1/assets/style-character/CONTRACT.md",
+                                         "bytes":  509,
+                                         "sha256":  "85a64837d0618a426723e36fcf375074444045a03265377fc1596581e3c7d355"
+                                     },
+                                     {
+                                         "path":  "skills/odosv5-1/assets/style-environment/CONTRACT.md",
+                                         "bytes":  327,
+                                         "sha256":  "ca9e217459cd3846df826056aa9f7f04804c7f03d31e604792a79a5dad77b073"
+                                     },
+                                     {
+                                         "path":  "skills/odosv5-1/assets/style-token/CONTRACT.md",
+                                         "bytes":  314,
+                                         "sha256":  "495320096448452fa8dbe640d61c73cd35936e701a76827aba948914a80bbeb0"
+                                     },
+                                     {
+                                         "path":  "skills/odosv5-1/references/art-direction-rules.md",
+                                         "bytes":  5058,
+                                         "sha256":  "9d39e6f73895d033665ff6d702df630f086421e4a1fb94e87e6a595eaf299b04"
+                                     },
+                                     {
+                                         "path":  "skills/odosv5-1/references/asset-contracts.md",
+                                         "bytes":  2374,
+                                         "sha256":  "d4cd3a33e089793371d70336ab1be59466b6ae33f12cc15eab13e7038476da33"
+                                     },
+                                     {
+                                         "path":  "skills/odosv5-1/references/battle-map-qa-schema.json",
+                                         "bytes":  601,
+                                         "sha256":  "2e26da13e4d60d655134e698c12608168613b66eea5f6b9ad4feb3fa53f3de14"
+                                     },
+                                     {
+                                         "path":  "skills/odosv5-1/references/codex-handoff-v5-template.md",
+                                         "bytes":  2505,
+                                         "sha256":  "3590d70691c85745aa4b01dc197f81dd503d62679fc27112a9aec00648d7c234"
+                                     },
+                                     {
+                                         "path":  "skills/odosv5-1/references/distribution-packaging.md",
+                                         "bytes":  5845,
+                                         "sha256":  "c451ce7b1e4f489f8c1bd2de48b7cb7da2f567e31627fa674209cab796961d81"
+                                     },
+                                     {
+                                         "path":  "skills/odosv5-1/references/image-call-protocol.md",
+                                         "bytes":  4343,
+                                         "sha256":  "c4b3dff72c8d8a6348d267516fc5dc239eff0bf85349cf93089d292d21ded5de"
+                                     },
+                                     {
+                                         "path":  "skills/odosv5-1/references/packet-structure.md",
+                                         "bytes":  1921,
+                                         "sha256":  "da8b7d78b00d6610b3b26102aa3cfb8943c0eddbc9ccecb50371a9b160e159b2"
+                                     },
+                                     {
+                                         "path":  "skills/odosv5-1/references/page-contracts.md",
+                                         "bytes":  6996,
+                                         "sha256":  "71fa01fdbffe179940b5ed81fd747e8443f30f3f3aaa4b57252f1b60e49d7d13"
+                                     },
+                                     {
+                                         "path":  "skills/odosv5-1/references/page-reference-routing.json",
+                                         "bytes":  1198,
+                                         "sha256":  "ec02ff909f73fa739883b004c3c6805a7a0e431a8d2275b40eb1d4c289f56f3e"
+                                     },
+                                     {
+                                         "path":  "skills/odosv5-1/references/prompt-template.md",
+                                         "bytes":  5431,
+                                         "sha256":  "0d9453a5549733c867a577ef97880c283de3a27e225dd4e96eb973145a4712cf"
+                                     },
+                                     {
+                                         "path":  "skills/odosv5-1/references/qa-checklist.md",
+                                         "bytes":  6525,
+                                         "sha256":  "0622cf4e6337478a3cacbf05eda2b83d68c209ca8f7c60ec53e53dca60797326"
+                                     },
+                                     {
+                                         "path":  "skills/odosv5-1/references/repair-prompts.md",
+                                         "bytes":  3312,
+                                         "sha256":  "2f82fe93201828001434542f6bd97a03af0271483665a2395d923e425855a5a9"
+                                     },
+                                     {
+                                         "path":  "skills/odosv5-1/references/scene-page-contracts.md",
+                                         "bytes":  3972,
+                                         "sha256":  "3c5a3e62429fb9ac2622a1433f6e997a980350c272583ac9f6c59fb34e1c5a2d"
+                                     },
+                                     {
+                                         "path":  "skills/odosv5-1/references/source-file-map.md",
+                                         "bytes":  1903,
+                                         "sha256":  "7713e79a09237985d33edbf91a7cba37732575578695de4035b70d38ffc61e47"
+                                     },
+                                     {
+                                         "path":  "skills/odosv5-1/references/statblock-contracts.md",
+                                         "bytes":  5653,
+                                         "sha256":  "3574a209dd02d2ca463159541dc5ab55d284d3a65eabd09c4511996fb58ec9fa"
+                                     },
+                                     {
+                                         "path":  "skills/odosv5-1/references/text-budgets.md",
+                                         "bytes":  1910,
+                                         "sha256":  "a8bc3db14b906e9e566e992628fdf840c1b75a8e3701a1e3e48a171bd1dd1aaf"
+                                     },
+                                     {
+                                         "path":  "skills/odosv5-1/references/visual-noise-ban.md",
+                                         "bytes":  1358,
+                                         "sha256":  "3e4f2d5e48b1d0d1587643534a82abd7aff1fd7c47e0ae01fae6a41f0e40ed0d"
+                                     },
+                                     {
+                                         "path":  "skills/odosv5-1/scripts/build_odosv5_distribution.py",
+                                         "bytes":  17410,
+                                         "sha256":  "eb7143a6a55fd8ae8368fc03ac2731ce566752d494a05d48e8ab165fe11d0b1c"
+                                     },
+                                     {
+                                         "path":  "skills/odosv5-1/scripts/build_qa_contact_sheet.py",
+                                         "bytes":  3089,
+                                         "sha256":  "ecb8853c4a9b17a9e0027be1efdd09ec611e871d54e133a77f6d59956a911428"
+                                     },
+                                     {
+                                         "path":  "skills/odosv5-1/scripts/compile_odosv5_prompt.py",
+                                         "bytes":  10469,
+                                         "sha256":  "3bf7f36232d90e4177c21e4c1829b6ddb760f2b9283eed5cb08d25173c8c71ef"
+                                     },
+                                     {
+                                         "path":  "skills/odosv5-1/scripts/odosv5_state.py",
+                                         "bytes":  36658,
+                                         "sha256":  "788ec1309f43d109e162d7abda322093e2b1e2c0e42df91341778b115e4561f7"
+                                     },
+                                     {
+                                         "path":  "skills/odosv5-1/scripts/page_copy_pack_schema.json",
+                                         "bytes":  1291,
+                                         "sha256":  "49431ecd100f0fbb236b8863ce660d488c885528ef08469e29a6839645bf863d"
+                                     },
+                                     {
+                                         "path":  "skills/odosv5-1/scripts/qa_ocr.py",
+                                         "bytes":  4966,
+                                         "sha256":  "ce9ed7048781a269356992bd58b4641dd66d381804010a3f3ebe0a007ffc90b1"
+                                     },
+                                     {
+                                         "path":  "skills/odosv5-1/scripts/qa_ocr_tesseract.mjs",
+                                         "bytes":  593,
+                                         "sha256":  "6f314d7b1e77395e9080f24d76162b96a1c5d9deee6eed4be7299a14b6d4d5b7"
+                                     },
+                                     {
+                                         "path":  "skills/odosv5-1/scripts/scaffold_odosv5_project.py",
+                                         "bytes":  5129,
+                                         "sha256":  "0eff80d7fce7037d7a2b13dc66878c93136a5bf2842bd710ae417baae1552464"
+                                     },
+                                     {
+                                         "path":  "skills/odosv5-1/scripts/validate_page_copy_pack.py",
+                                         "bytes":  1509,
+                                         "sha256":  "bf2720f72292e1478aed940ad207a37db3383ec599bf88310cbdc44a3a607c62"
+                                     },
+                                     {
+                                         "path":  "skills/odosv5-1/scripts/validate_reference_assets.py",
+                                         "bytes":  2201,
+                                         "sha256":  "8520879be7ae170d0efd5a33868190c3fd2d0731c80d1e218c84fe415537ce25"
+                                     },
+                                     {
+                                         "path":  "skills/odosv5-1/SKILL.md",
+                                         "bytes":  10984,
+                                         "sha256":  "476e3112a2d803746c4050663208281c74f21193395bd0436ada4a42156d962f"
+                                     }
+                                 ]
+                   }
+               ]
+}
