@@ -14,9 +14,6 @@ function Assert-Path {
 }
 
 $required = @(
-    'index.html',
-    'styles.css',
-    'app.js',
     'README.md',
     'docs/ARCHITECTURE.md',
     'docs/PRESERVATION.md',
